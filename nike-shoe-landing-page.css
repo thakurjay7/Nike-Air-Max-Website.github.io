@@ -1,0 +1,367 @@
+/* Global Css */
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-3xs: 10px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-orangered: #fd681d;
+  --color-black: #000;
+  --color-lightgray: #d4d4d4;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-lg: 18px;
+}
+
+/* Black desktop */
+.desktop-2 {
+  position: absolute;
+  background-color: #2c2c2c;
+  width: 100%;
+  height: 1375px;
+  overflow: hidden;
+}
+/* Footer Shoes */
+.footer-1-child,
+.footer-1-item {
+  position: absolute;
+  top: 119.42px;
+  left: 54.23px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-lightgray);
+  width: 136px;
+  height: 100px;
+}
+/* Footer Shoes Add to cart box */
+.footer-1-item {
+  top: 190.42px;
+  left: 172.23px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+/* Footer Shoes Add to cart + */
+.vector-icon {
+  position: absolute;
+  height: 6.06%;
+  width: 6.37%;
+  top: 87.25%;
+  right: 10.32%;
+  bottom: 6.68%;
+  left: 83.31%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+/* Footer * */
+.footer-1-inner {
+  position: absolute;
+  top: 202.42px;
+  left: 64.38px;
+  width: 6px;
+  height: 6px;
+}
+.footer-1-child1,
+.footer-1-child2,
+.footer-1-child3,
+.star-icon {
+  position: absolute;
+  top: 202.42px;
+  left: 72.38px;
+  width: 6px;
+  height: 6px;
+}
+.footer-1-child1,
+.footer-1-child2,
+.footer-1-child3 {
+  left: 80.38px;
+}
+.footer-1-child2,
+.footer-1-child3 {
+  left: 88.38px;
+}
+.footer-1-child3 {
+  left: 96.38px;
+}
+.nike-air {
+  margin: 0;
+}
+.div,
+.nike-air-one-container {
+  position: absolute;
+  top: 176.42px;
+  left: 64.23px;
+  letter-spacing: 0.08em;
+  line-height: 12px;
+}
+.div {
+  left: 145.23px;
+}
+/* Footer shoes */
+.air-max-2x-shoe-wh9d6p-removeb-icon {
+  position: absolute;
+  top: -4px;
+  left: -8px;
+  width: 243.94px;
+  height: 254.85px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.footer,
+.footer-1,
+.footer-2,
+.footer-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 219.94px;
+  height: 230.85px;
+}
+.footer,
+.footer-2,
+.footer-3 {
+  left: 231.23px;
+}
+.footer,
+.footer-3 {
+  left: 462.23px;
+}
+.footer {
+  top: 754px;
+  left: 12.77px;
+  width: 682.17px;
+}
+/* Navbar */
+.men,
+.sale,
+.snkrs,
+.women {
+  position: absolute;
+  top: 1px;
+  left: 208px;
+  letter-spacing: 0.08em;
+  display: inline-block;
+  width: 73px;
+  height: 13px;
+  -webkit-text-stroke: 1px #000;
+}
+.sale,
+.snkrs,
+.women {
+  left: 552px;
+  width: 67px;
+  height: 19px;
+}
+.snkrs,
+.women {
+  top: 3px;
+  left: 698px;
+  width: 91px;
+}
+.women {
+  top: 1px;
+  left: 359px;
+  width: 115px;
+}
+.nike-logo-icon {
+  position: absolute;
+  height: 86.33%;
+  width: 10.73%;
+  top: -2.24%;
+  right: 89.34%;
+  bottom: 15.91%;
+  left: -0.06%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.nav {
+  position: absolute;
+  top: 65px;
+  left: 49px;
+  width: 789px;
+  height: 22px;
+  text-align: center;
+  font-size: var(--font-size-base);
+}
+.just-do-it-container {
+  position: absolute;
+  top: 0;
+  left: 554px;
+  letter-spacing: 0.08em;
+  font-weight: 100;
+  color: var(--color-orangered);
+  display: inline-block;
+  width: 866px;
+  height: 1039px;
+  opacity: 0.1;
+}
+.main-body-child {
+  position: absolute;
+  top: 611px;
+  left: 216px;
+  border-radius: 33.5px;
+  background-color: var(--color-white);
+  box-shadow: 5px 9px 22px rgba(0, 0, 0, 0.1);
+  width: 190px;
+  height: 67px;
+}
+.add-to-cart {
+  position: absolute;
+  top: 631px;
+  left: 258px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  width: 107px;
+  height: 31px;
+}
+.div3 {
+  top: 611px;
+  font-size: 55px;
+  letter-spacing: -0.04em;
+  font-weight: 300;
+  width: 141px;
+  height: 82px;
+}
+.celebrating-th-hoops,
+.div3,
+.legagh,
+.nike-air-max {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.celebrating-th-hoops {
+  top: 428px;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  line-height: 179.52%;
+  font-weight: 500;
+  width: 406px;
+  height: 211px;
+}
+.legagh,
+.nike-air-max {
+  letter-spacing: -0.04em;
+}
+.legagh {
+  top: 247px;
+  font-size: 115px;
+  font-weight: 300;
+  color: var(--color-orangered);
+  width: 448px;
+  height: 137px;
+}
+.nike-air-max {
+  top: 177px;
+  font-size: 72px;
+  width: 422px;
+  height: 86px;
+}
+.main-body {
+  position: absolute;
+  top: 45px;
+  left: 153px;
+  width: 1420px;
+  height: 1039px;
+  font-size: 270px;
+}
+.side-line-child,
+.side-line-item {
+  position: absolute;
+  left: 0;
+  width: 2px;
+}
+.side-line-child {
+  top: 120px;
+  border-radius: 7px;
+  background-color: var(--color-orangered);
+  height: 45px;
+}
+.side-line-item {
+  top: 0;
+  border-radius: 6px;
+  background-color: #acacac;
+  height: 114px;
+}
+.desktop-1,
+.side-line {
+  position: relative;
+  top: 238px;
+  left: 116px;
+  width: 2px;
+  height: 165px;
+}
+.desktop-1 {
+  top: 50px;
+  left: 40px;
+  border-radius: 55px;
+  background-color: #e3e3e3;
+  border: 3px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+  position: relative;
+}
+.footer-divider-icon,
+.nav-divider-icon {
+  position: absolute;
+  top: 843.83px;
+  left: 0;
+  width: 1440px;
+  height: 2px;
+}
+.nav-divider-icon {
+  top: 183.83px;
+  left: 2px;
+  width: 1438px;
+}
+.shoe-1-icon,
+.shoe-2-icon {
+  position: absolute;
+  top: -170.26px;
+  left: 77.17px;
+  width: 1364.87px;
+  height: 1416.48px;
+  object-fit: cover;
+}
+.shoe-2-icon {
+  top: 15.92px;
+  left: 0.28px;
+  width: 1221.45px;
+  height: 1087.01px;
+}
+.hero-shoe {
+  position: absolute;
+  top: 1.43px;
+  left: 320.44px;
+  width: 1272.05px;
+  height: 1103.09px;
+  transform: rotate(-0.06deg);
+  transform-origin: 0 0;
+}
+.nike-shoe-landing-page {
+  position: relative;
+  width: 100%;
+  height: 1104.52px;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
